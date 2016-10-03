@@ -25,7 +25,8 @@ body{
 
 
 a{
-	color:#DE5E60;
+	/*color:#DE5E60;*/
+	color:#C5C8CB;
 	text-decoration: none;
 	cursor: pointer;
 
@@ -39,7 +40,8 @@ a:hover,
 a:active,
 a:focus{
 	outline: 0;
-	color:#FFFFFF;
+	/*color:#FFFFFF;*/
+	color:#DE5E60;
 	text-decoration:none;
 }
 
@@ -52,7 +54,7 @@ a > img {
 }
 
 img {
-	max-width: none;
+	max-width: 100%;
 }
 
 strong {
@@ -61,6 +63,16 @@ strong {
 
 p {
 	margin: 0 0 30px;
+}
+
+p + ul {
+    margin-top: -27px;
+    margin-bottom: 20px;
+    list-style-type: none;
+}
+
+li{
+	margin-bottom: 3px;
 }
 
 hr {
@@ -285,7 +297,7 @@ h3.spec {
 #home-slider {
 	position: relative;
 	overflow: hidden;
-	height: 93%;
+	height: 92%;
 }
 
 #home-slider .overlay {
@@ -620,14 +632,21 @@ nav#menu #menu-nav li a:hover {
 
 .page {
 	background: #2F3238;
-	padding: 25px 0;
+	padding: 60px 0;
 	position: relative;
 	z-index: 99;
 }
 
 .page-alternate {
 	background: #26292E;
-	padding: 100px 0;
+	padding: 60px 0;
+	position: relative;
+	z-index: 99;
+}
+
+.page-social{
+	background: #2F3238;
+	padding: 20px 0;
 	position: relative;
 	z-index: 99;
 }
@@ -874,8 +893,8 @@ nav#menu #menu-nav li a:hover {
 	color: #FFFFFF;
 	font-size: 16px;
 	line-height: 1em;
-	width: 16px;
-	height: 16px;
+	width: 15px;
+	height: 15px;
 
 	opacity: 0.3;
 	filter: alpha(opacity=30);
@@ -1060,8 +1079,8 @@ nav#menu #menu-nav li a:hover {
 
 #social ul li a {
 	display: block;
-	width: 70px;
-	height: 70px;
+	width: 60px;
+	height: 60px;
 
 	background: #26292E;
 
@@ -1082,7 +1101,7 @@ nav#menu #menu-nav li a:hover {
 	margin: 0;
 	color: #FFFFFF;
 	font-size: 32px;
-	line-height: 70px;
+	line-height: 60px;
 
 	opacity: 1;
 	filter: alpha(opacity=30);
