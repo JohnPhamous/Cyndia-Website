@@ -16,7 +16,8 @@ html, hmtl a{
 
 body{
 	background:#2F3238;
-	color:#7F8289;
+	/*color:#7F8289;*/
+	color:#8B8895;
 	font-weight:300;
 	font-size:16px;
 	font-family: 'Titillium Web', sans-serif;
@@ -81,7 +82,12 @@ hr {
 	border-bottom: none;
 	border-left: none;
 	border-right: none;
-	margin: 50px 0;
+	margin: 60px 0;
+}
+
+figcaption {
+	font-size:12px;
+	line-height:16px;
 }
 
 .align_left{
@@ -651,6 +657,10 @@ nav#menu #menu-nav li a:hover {
 	z-index: 99;
 }
 
+.about-header{
+	max-height: 40%;
+}
+
 .title-page {
 	text-align: center;
 	margin-bottom: 100px;
@@ -665,6 +675,10 @@ nav#menu #menu-nav li a:hover {
 	font-size: 24px;
 	font-weight: 200;
 	margin: 0;
+}
+
+.full-page {
+	height: 100%;
 }
 
 /* ==================================================
@@ -1270,7 +1284,7 @@ footer .credits {
 }
 
 .blog-img {
-	width:300px;
-   	height:300px;
+	/*width:300px;*/
+   	height:270px;
    	padding: 10px 10px 10px 10px;
 }
