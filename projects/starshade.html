@@ -1,0 +1,376 @@
+<!-- Hi, good luck on getting a job! -->
+<!-- Rule of thumb: don't suck -->
+<!-- TODO:
+Link portfolio scroll
+fix other projects padding -->
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+
+    <!-- Meta Tags -->
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+    <title>Cyndia Cao | JPL Starshade Technology Project</title>
+
+    <meta name="description" content="Cyndia Cao's Website" />
+
+    <!-- Mobile Specifics -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="HandheldFriendly" content="true" />
+    <meta name="MobileOptimized" content="320" />
+
+    <!-- Mobile Internet Explorer ClearType Technology -->
+    <!--[if IEMobile]>  <meta http-equiv="cleartype" content="on">  <![endif]-->
+
+    <link href="../_include/css/snow.css" rel="stylesheet">
+
+    <!-- Bootstrap -->
+    <link href="../_include/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Main Style -->
+    <link href="../_include/css/main.css" rel="stylesheet">
+
+    <!-- FancyBox -->
+    <link href="../_include/css/fancybox/jquery.fancybox.css" rel="stylesheet">
+
+    <!-- Font Icons -->
+    <link href="../_include/css/fonts.css" rel="stylesheet">
+
+    <!-- Shortcodes -->
+    <link href="../_include/css/shortcodes.css" rel="stylesheet">
+
+    <!-- Responsive -->
+    <link href="../_include/css/bootstrap-responsive.min.css" rel="stylesheet">
+    <link href="../_include/css/responsive.css" rel="stylesheet">
+
+    <!-- Supersized -->
+    <link href="../_include/css/supersized.css" rel="stylesheet">
+    <link href="../_include/css/supersized.shutter.css" rel="stylesheet">
+
+    <!-- Google Font -->
+    <link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200,200italic,300,300italic,400italic,600,600italic,700,700italic,900' rel='stylesheet' type='text/css'>
+
+    <!-- Fav Icon -->
+    <link rel="shortcut icon" href="#">
+
+    <link rel="apple-touch-icon" href="#">
+    <link rel="apple-touch-icon" sizes="114x114" href="#">
+    <link rel="apple-touch-icon" sizes="72x72" href="#">
+    <link rel="apple-touch-icon" sizes="144x144" href="#">
+
+    <!-- Modernizr -->
+    <script src="../_include/js/modernizr.js"></script>
+
+</head>
+
+
+<body>
+    <!-- Header -->
+    <header>
+        <div class="sticky-nav">
+            <a id="mobile-nav" class="menu-nav" href="#menu-nav"></a>
+
+            <div id="logo">
+                <a class="external" href="../index.html">Cyndia Cao's Website</a>
+            </div>
+
+            <nav id="menu">
+                <ul id="menu-nav">
+                    <li><a class="external" href="../index.html">Home</a></li>
+                    <li><a class="external" href="../index.html#project-link">Projects</a></li>
+                    <li><a href="../about.html" class="external">About</a></li>
+                    <!--li><a href="interests.html">Interests</a></li-->
+                    <li><a href="../_include/doc/resume.pdf" class="external">Resume</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </header>
+    <!-- End Header -->
+
+    <!-- Our Work Section -->
+    <div id="work" class="page">
+
+        <div class="container">
+            <div class="span12">
+                <center>
+                    <h1>Starshade Technology Project</h1>
+                    <h3>JPL Summer 2016</h3>
+                </center>
+            </div> 
+
+            <div class="row margin-20">
+                <div class="span10 offset1">
+                    <img src="../_include/img/portfolio/starshade/starshade-2014.jpg" class="align_right" style="height:280px;"> 
+                    <p>I spent the summer of my junior year (2016) in Pasadena, CA at JPL working with the Starshade Technology Project team. Starshade is a 22m external occulter that launches with a space telescope to image exoplanets. As a large deployable structure, Starshade can be difficult to grasp visually, specifically how individual components move during deployment. <strong>Around lab, there are a ton of huge individual testbeds, but none that show all of the pieces put together. So with the other two summer interns, I designed various configuration models that were designed to fit on a conference table as an engineering design tool.</strong></p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="span10 offset1">
+                    <p>We decided 1/20 scale would reduce everything to a manageable size. However, at that scale, features would be on the order of 0.010” to 0.100”, which can be hard to achieve and fragile. We decided to use additive manufacturing to print the assembly in larger chunks wherever possible in order to reduce assembly of tiny pieces. We explored three very accessible 3D printing processes.</p>
+                </div>
+            </div>
+
+            <div class="row margin-20">
+                <div class="span10 offset1">
+                    <figure class="blog-cap">
+                    <center>
+                    <table border="1">
+                        <tr>
+                            <td width="150"></td>
+                            <td width="250"><strong>Fused Deposition Modeling (FDM)</strong><br><font size="2">Low-Resolution</font></td>
+                            <td width="250"><strong>Selective Laser Sintering (SLS)</strong><br><font size="2">Med-Resolution</font></center></td>
+                            <td width="250"><strong>Stereolithography (SLA)</strong><br><font size="2">High-Resolution</font></td>
+                        </tr>
+
+                        <tr>
+                            <td></td>
+                            <td><img src="../_include/img/portfolio/starshade/starshade_fdm.jpg" style="max-height:200px;"></td>
+                            <td><img src="../_include/img/portfolio/starshade/starshade_sls.jpg" style="max-height:200px;"></td>
+                            <td><img src="../_include/img/portfolio/starshade/starshade_sla.jpg" style="max-height:200px;"></td>
+                        </tr>
+
+                        <tr>
+                            <td style="text-align:left"><strong>Process</strong></td>
+                            <td>Extruding melted filament</td>
+                            <td>Fusing layers of powder together via high energy laser</td>
+                            <td>Shining UV light onto a photoreactive resin</td>
+                        </tr>
+
+                        <tr>
+                            <td style="text-align:left"><strong>Layer Thickness</strong></td>
+                            <td>0.002"-0.012"</td>
+                            <td>0.005"</td>
+                            <td>0.002"-0.004"</td>
+                        </tr>
+
+                        <tr>
+                            <td style="text-align:left"><strong>X-Y Resolution</strong></td>
+                            <td>Limited by filament diameter, ~0.070"</td>
+                            <td>Limited by powder grain, typically ~0.005"-0.008"</td>
+                            <td>Limited by resin polymerization, ~0.002"-0.003"</td>
+                        </tr>
+
+                        <tr>
+                            <td style="text-align:left"><strong>Recommended Min. Feature Size</strong></td>
+                            <td>0.140" to achieve two passes of filament</td>
+                            <td>
+                                <ul>
+                                    <li>Feature: 0.040"</li>
+                                    <li>Walls: 0.020"</li>
+                                    <li>Holes: 0.024"</li>
+                                </ul>
+                            </td>
+                            <td>0.025"-0.035"</td>
+                        </tr>                                                
+
+                        <tr>
+                            <td style="text-align:left"><strong>Print Bed Size</strong></td>
+                            <td>8.4" x 6.3" x 8.7"</td>
+                            <td>13" x 13" x 20"</td>
+                            <td>25" x 25" x 21"</td>
+                        </tr>
+
+                        <tr>
+                            <td style="text-align:left"><strong>Finish</strong></td>
+                            <td>Smooth plastic, distinct layers</td>
+                            <td>Grainy, similar to a sugar cube</td>
+                            <td>Smooth with sharp edges, unnoticeable layers</td>
+                        </tr>
+
+                        <tr>
+                            <td style="text-align:left"><strong>Other Notes</strong></td>
+                            <td>Difficult to remove support material cleanly</td>
+                            <td>Does not require support material</td>
+                            <td>Vendor uses dissolvable support material</td>
+                        </tr>
+                    </table>
+                </center>
+                <figcaption>Note that specs are derived from Tinkerine (FDM), Xometry (SLS), and 3D Systems (SLA).</figcaption>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="span10 offset1">
+                    <p>We really loved the feel of the SLA printed parts we received because you could see every last accent we added to the design to give the parts more dimension, but it was ultimately 2-3 times more expensive than SLS, which was honestly also very impressive considering the size we were asking for. The only problem we faced was warping on the petals because of the broad, thin nature of the pieces, which naturally had thermal problems. Once we thickened up the members by about 5-10 thou everything was fine though. As a result, we ultimately created one high fidelity SLA model and one more cost effective SLS model.</p>
+                </div>
+            </div>
+            <div class="row margin-20">
+                <div class="span10 offset1">
+                    <img src="../_include/img/portfolio/starshade/starshade_print_tol.png" class="align_right" style="height:410px;">
+
+                    <p>However, we had design challenges with assembly when we noticed our test SLS parts had an extremely tight fit, and honestly had to be filed down a bit to fit together, while our SLA parts easily slid in and out of each other. Because of this, I decided to measure the dimensions of key features in the sample parts we received. Clearly, the SLS parts were significantly thicker than the SLA parts, or at least enough to change the fits we designed for.</p>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="span10 offset1">
+                    <p>In this process of designing, printing, and iterating, we got familiar with a lot of great resources around JPL’s campus. In particular, there is one lab that had a ton of rapid prototyping resources, and we tested a lot of our high-fidelity 3D prints there, since they had a Form2 and a Statasys Objet350 Connex2, “the Ferrari”. They also had a laser cutter we used extensively to make the conical optical shield (the gold foil on the inside). We even added perforations to get some of the detail of the origami design – you can see the curvature of the folding pattern on the gold foil.</p>
+                </div>
+            </div>
+            <div class="row margin-20">
+                <div class="span12">
+                    <center>
+                        <img src="../_include/img/portfolio/starshade/starshade_3Dprint.gif" class="blog-img">
+                        <img src="../_include/img/portfolio/starshade/starshade_OS.gif" class="blog-img"><br>
+                        <img src="../_include/img/portfolio/starshade/starshade_3Dprint_petals.jpg" class="blog-img">
+                        <img src="../_include/img/portfolio/starshade/starshade_OS.jpg" class="blog-img">
+                    </center>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="span10 offset1">
+                    <p>Another thing I really appreciated about our mentor this summer, David Webb, was that every step of the way, he made sure we understood the structural design of any parts we were trying to imitate on the small model. There were a lot of cables in tension that we had to imitate with rigid beams, since it would be quite difficult to tension string on such a small and fragile mode.</p>
+                    <p>Also, while we did a lot of contacting potential 3D printing companies ourselves, he joined us for several and helped us navigate asking the right questions to make sure you’re getting exactly what you want. For example, we learned that even though a lot of people think they want high resolution SLA parts, the features they want can be achieved by the normal resolution process so they just put your parts on the normal resolution print beds because of their limited high resolution beds. Even though we thought we wanted high resolution, the normal resolution print was still better than spec and achieved what we actually wanted.</p>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="span10 offset1">
+                    <p>And without further ado, here are the final models we made!</p>
+                    
+                    <center>
+                        <p><img src="../_include/img/portfolio/starshade/starshade_stowedmodel.jpg" class="blog-img-starshade"></p>
+                        <p><img src="../_include/img/portfolio/starshade/starshade_deployedmodel.jpg" class="blog-img-starshade"></p>
+                        <p><img src="../_include/img/portfolio/starshade/starshade_crossmodel.jpg" class="blog-img-starshade"></p>
+                        <p><img src="../_include/img/portfolio/starshade/starshade_unfurlingmodel.jpg" class="blog-img-starshade"></p>
+                    </center>
+
+
+                    <p>Because I stayed an extra couple of weeks, I got to create and put together the unfurling model, our only moving model. It was lots of fun, and since this was actually the first unfurling model in lab (the other larger ones are still in development), we got to learn some things about how to design the actual unfurling module!</p>
+
+                    <center><video height="280" controls muted class="blog-video">
+                        <source src="../_include/img/portfolio/starshade/starshade_unfurling.mp4" type="video/mp4">
+                        Your browser does not support the video tag :(
+                    </video></center>
+
+                    <p>We also got to assemble an optical shield for the 5m deployable truss that is already in lab. We learned about soft material bonding between kapton and foam. The foam has a thickness meant to prevent micro-meteroids ruining the opacity of the optical shield when they penetrate the Starshade. After several experiments with mass of epoxy used and the strength of the bond, we went through a [fairly] controlled process of rolling and transferring epoxy between sheets of material, and then cutting and attaching them together.</p>
+
+                    <center><img src="../_include/img/portfolio/starshade/starshade_bondedOS.jpg" class="blog-img-big"></center>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- End Our Work Section -->
+
+
+
+    <div class="page">
+        <div class="container">
+            <div class="span12">
+                <div class="row">
+                    <h2>Other Works...</h2>
+                    <section>
+                        <ul id="thumbs">
+
+                            <li class="item-thumbs span3 classes">
+                                <a class="hover-wrap fancybox external" data-fancybox-group="gallery" title="2.72" href="272.html">
+                                    <span class="overlay-img"></span>
+                                    <center><span class="overlay-img-thumb">2.72 Machine Design</span></center>
+                                </a>
+                                <img src="../_include/img/portfolio/2.72.jpg" alt="2.72">
+                            </li>
+
+                            <li class="item-thumbs span3 classes">
+                                <a class="hover-wrap fancybox external" data-fancybox-group="gallery" title="heli" href="bell.html">
+                                    <span class="overlay-img"></span>
+                                    <center><span class="overlay-img-thumb">Bell Helicopter</span></center>
+                                </a>
+                                <img src="../_include/img/portfolio/heli.jpg" alt="heli">
+                            </li>
+
+                            <li class="item-thumbs span3 classes">
+                                <a class="hover-wrap fancybox external" data-fancybox-group="gallery" title="ssp" href="ssp.html">
+                                    <span class="overlay-img"></span>
+                                    <center><span class="overlay-img-thumb">Summer Science Program</span></center>
+                                </a>
+                                <img src="../_include/img/portfolio/ssp.jpg" alt="ssp">
+                            </li>
+                            
+                            <li class="item-thumbs span3 classes">
+                                <a class="hover-wrap fancybox external" data-fancybox-group="gallery" title="biglittle" href="biglittle.html">
+                                    <span class="overlay-img"></span>
+                                    <center><span class="overlay-img-thumb">Pi Beta Phi<br>Big Little Week</span></center>
+                                </a>
+                                <img src="../_include/img/portfolio/biglittle.jpg" alt="biglittle">
+                            </li>
+
+
+                        </ul>
+                    </section>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Socialize -->
+    <div id="social-area" class="page-social">
+        <div class="container">
+            <div class="row">
+                <div class="span12">
+                    <nav id="social">
+                        <ul>
+                            <li><a href="https://www.linkedin.com/in/cyndiac" title="Cyndia's LinkedIn" target="_blank"><span class="font-icon-social-linkedin"></span></a></li>
+                            <li><a href="mailto:cyndiac@mit.edu" title="Send me an email!" target="_blank"><span class="font-icon-email"></span></a></li>
+                            <li><a href="../_include/doc/resume.pdf" title="Cyndia's Resume" target="_blank"><span class="font-icon-file"></span></a></li>
+                            <li><a href="../_include/doc/paper_portfolio.pdf" title="Download a PDF summary of Cyndia's portfolio" target="_blank"><span class="font-icon-download_2"></span></a></li>
+                            <!--li><a href="" title="Link to my calendar" target="_blank"><span class="font-icon-calendar"></span></a></li-->
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- End Socialize -->
+
+
+    <!-- Footer -->
+    <footer>
+        <p class="credits">Cyndia Cao  - -  MIT Class of 2017  - -  cyndiac@mit.edu</p>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Back To Top -->
+    <a id="back-to-top" href="#">
+        <i class="font-icon-arrow-simple-up"></i>
+    </a>
+    <!-- End Back to Top -->
+
+
+    <!-- Js -->
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <!-- jQuery Core -->
+    <script src="../_include/js/bootstrap.min.js"></script>
+    <!-- Bootstrap -->
+    <script src="../_include/js/supersized.3.2.7.min.js"></script>
+    <!-- Slider -->
+    <script src="../_include/js/waypoints.js"></script>
+    <!-- WayPoints -->
+    <script src="../_include/js/waypoints-sticky.js"></script>
+    <!-- Waypoints for Header -->
+    <script src="../_include/js/jquery.isotope.js"></script>
+    <!-- Isotope Filter -->
+    <script src="../_include/js/jquery.fancybox.pack.js"></script>
+    <!-- Fancybox -->
+    <script src="../_include/js/jquery.fancybox-media.js"></script>
+    <!-- Fancybox for Media -->
+    <script src="../_include/js/plugins.js"></script>
+    <!-- Contains: jPreloader, jQuery Easing, jQuery ScrollTo, jQuery One Page Navi -->
+    <script src="../_include/js/main.js"></script>
+    <!-- Default JS -->
+    <!-- End Js -->
+    </div>
+</body>
+
+</html>
+
+<!-- How many eggs did a chicken lay?  -->
+<!-- Idk how many? -->
+<!-- idk -->
+<!-- Joke's by John Pham -->
