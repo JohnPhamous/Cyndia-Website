@@ -85,19 +85,19 @@ jQuery(function ($) {
                 },
                 {
                     image: '_include/img/slider-images/image02.png',
-                    title: '<div class="slide-content">I really like Taro</div>',
+                    title: '<div class="slide-content">Cyndia Cao</div>',
                     thumb: '',
                     url: ''
                 },
                 {
-                    image: '_include/img/slider-images/image03.png',
-                    title: '<div class="slide-content">I like food</div>',
+                    image: '_include/img/slider-images/image03.jpg',
+                    title: '<div class="slide-content">Cyndia Cao</div>',
                     thumb: '',
                     url: ''
                 },
                 {
                     image: '_include/img/slider-images/image04.jpg',
-                    title: '<div class="slide-content">Muuuuuurz</div>',
+                    title: '<div class="slide-content">Cyndia Cao</div>',
                     thumb: '',
                     url: ''
                 }
